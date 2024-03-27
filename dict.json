@@ -1,1 +1,574 @@
-{"hello": [["test_doc_2", 6]], "world": [["test_doc_2", 3]], "removed": [["test_doc_2", 3]], "la": [["test_doc", 36]], "veille": [["test_doc", 3]], "le": [["test_doc", 57]], "gouvernement": [["test_doc", 21]], "sud-coreen": [["test_doc", 3]], "avait": [["test_doc", 6]], "dit": [["test_doc", 3]], "avoir": [["test_doc", 6]], "identifie": [["test_doc", 3]], "medecins": [["test_doc", 21]], "en": [["test_doc", 21]], "greve": [["test_doc", 12]], "susceptibles": [["test_doc", 3]], "detre": [["test_doc", 3]], "suspendus": [["test_doc", 3]], "mercredi": [["test_doc", 9]], "mars": [["test_doc", 3]], "police": [["test_doc", 6]], "sud-coreenne": [["test_doc", 3]], "convoque": [["test_doc", 6]], "un": [["test_doc", 3]], "premier": [["test_doc", 6]], "medecin": [["test_doc", 3]], "pour": [["test_doc", 18]], "interrogatoire": [["test_doc", 6]], "dans": [["test_doc", 12]], "cadre": [["test_doc", 3]], "dun": [["test_doc", 6]], "immense": [["test_doc", 3]], "mouvement": [["test_doc", 12]], "de": [["test_doc", 60]], "des": [["test_doc", 21]], "milliers": [["test_doc", 3]], "jeunes": [["test_doc", 9]], "ont": [["test_doc", 9]], "demissionne": [["test_doc", 3]], "et": [["test_doc", 24]], "cesse": [["test_doc", 3]], "leur": [["test_doc", 3]], "travail": [["test_doc", 9]], "il": [["test_doc", 9]], "environ": [["test_doc", 3]], "deux": [["test_doc", 3]], "semaines": [["test_doc", 3]], "protester": [["test_doc", 3]], "contre": [["test_doc", 3]], "projet": [["test_doc", 3]], "gouvernemental": [["test_doc", 3]], "daugmenter": [["test_doc", 3]], "nombre": [["test_doc", 3]], "dadmissions": [["test_doc", 3]], "les": [["test_doc", 36]], "facultes": [["test_doc", 3]], "medecine": [["test_doc", 6]], "une": [["test_doc", 6]], "mesure": [["test_doc", 6]], "jugee": [["test_doc", 3]], "essentielle": [["test_doc", 3]], "par": [["test_doc", 3]], "face": [["test_doc", 3]], "au": [["test_doc", 3]], "vieillissement": [["test_doc", 3]], "population": [["test_doc", 3]], "du": [["test_doc", 15]], "pays": [["test_doc", 6]], "qualifie": [["test_doc", 3]], "dillegal": [["test_doc", 3]], "cet": [["test_doc", 3]], "arret": [["test_doc", 3]], "tres": [["test_doc", 3]], "suivi": [["test_doc", 3]], "fixe": [["test_doc", 3]], "fevrier": [["test_doc", 3]], "comme": [["test_doc", 3]], "date": [["test_doc", 3]], "limite": [["test_doc", 3]], "reprise": [["test_doc", 3]], "annonce": [["test_doc", 3]], "mardi": [["test_doc", 3]], "debut": [["test_doc", 3]], "suspension": [["test_doc", 6]], "licences": [["test_doc", 6]], "demande": [["test_doc", 3]], "louverture": [["test_doc", 3]], "dune": [["test_doc", 9]], "enquete": [["test_doc", 3]], "sur": [["test_doc", 3]], "personnes": [["test_doc", 3]], "liees": [["test_doc", 3]], "mobilisation": [["test_doc", 3]], "bureaux": [["test_doc", 3]], "lassociation": [["test_doc", 3]], "medicale": [["test_doc", 6]], "coreenne": [["test_doc", 3]], "kma": [["test_doc", 6]], "fer": [["test_doc", 3]], "lance": [["test_doc", 3]], "deja": [["test_doc", 3]], "ete": [["test_doc", 9]], "perquisitionnes": [["test_doc", 3]], "ses": [["test_doc", 3]], "principaux": [["test_doc", 3]], "membres": [["test_doc", 3]], "poursuivis": [["test_doc", 3]], "justice": [["test_doc", 3]], "infraction": [["test_doc", 3]], "reglementation": [["test_doc", 3]], "frappes": [["test_doc", 3]], "interdiction": [["test_doc", 3]], "voyager": [["test_doc", 3]], "accuse": [["test_doc", 3]], "davoir": [["test_doc", 3]], "aide": [["test_doc", 3]], "encourage": [["test_doc", 3]], "manifestations": [["test_doc", 3]], "joo": [["test_doc", 3]], "soo-ho": [["test_doc", 3]], "membre": [["test_doc", 6]], "je": [["test_doc", 6]], "suis": [["test_doc", 3]], "venu": [["test_doc", 3]], "ici": [["test_doc", 3]], "sans": [["test_doc", 3]], "probleme": [["test_doc", 3]], "parce": [["test_doc", 3]], "que": [["test_doc", 9]], "nai": [["test_doc", 3]], "litteralement": [["test_doc", 3]], "rien": [["test_doc", 3]], "cacher": [["test_doc", 3]], "ni": [["test_doc", 3]], "aucune": [["test_doc", 3]], "raison": [["test_doc", 3]], "faire": [["test_doc", 3]], "declare": [["test_doc", 3]], "chirurgien": [["test_doc", 3]], "ans": [["test_doc", 3]], "presse": [["test_doc", 3]], "avant": [["test_doc", 3]], "dentrer": [["test_doc", 3]], "locaux": [["test_doc", 3]], "metropolitaine": [["test_doc", 3]], "seoul": [["test_doc", 6]], "laccusation": [["test_doc", 3]], "dincitation": [["test_doc", 3]], "ne": [["test_doc", 3]], "peut": [["test_doc", 3]], "etre": [["test_doc", 3]], "etablie": [["test_doc", 3]], "car": [["test_doc", 3]], "nous": [["test_doc", 3]], "navons": [["test_doc", 3]], "jamais": [["test_doc", 3]], "incite": [["test_doc", 3]], "demissionner": [["test_doc", 3]], "masse": [["test_doc", 3]], "selon": [["test_doc", 6]], "lui": [["test_doc", 3]], "affirme": [["test_doc", 6]], "ce": [["test_doc", 3]], "est": [["test_doc", 6]], "non": [["test_doc", 3]], "violent": [["test_doc", 3]], "exhorte": [["test_doc", 3]], "renoncer": [["test_doc", 3]], "son": [["test_doc", 9]], "entetement": [["test_doc", 3]], "negocier": [["test_doc", 3]], "linterrogatoire": [["test_doc", 3]], "personnel": [["test_doc", 3]], "medical": [["test_doc", 3]], "rapport": [["test_doc", 3]], "avec": [["test_doc", 3]], "debrayages": [["test_doc", 3]], "cours": [["test_doc", 3]], "malgre": [["test_doc", 3]], "menace": [["test_doc", 3]], "plupart": [["test_doc", 3]], "grevistes": [["test_doc", 3]], "nont": [["test_doc", 3]], "pas": [["test_doc", 3]], "repris": [["test_doc", 3]], "maniere": [["test_doc", 3]], "significative": [["test_doc", 3]], "donnees": [["test_doc", 3]], "lundi": [["test_doc", 3]], "pres": [["test_doc", 3]], "stagiaires": [["test_doc", 3]], "etaient": [["test_doc", 3]], "toujours": [["test_doc", 3]], "lun": [["test_doc", 3]], "ratios": [["test_doc", 3]], "medecins-patients": [["test_doc", 3]], "plus": [["test_doc", 6]], "faibles": [["test_doc", 3]], "parmi": [["test_doc", 3]], "developpes": [["test_doc", 3]], "insiste": [["test_doc", 3]], "admettre": [["test_doc", 3]], "etudiants": [["test_doc", 3]], "supplementaires": [["test_doc", 3]], "ecoles": [["test_doc", 3]], "chaque": [["test_doc", 3]], "annee": [["test_doc", 3]], "partir": [["test_doc", 3]], "lan": [["test_doc", 3]], "prochain": [["test_doc", 3]], "sont": [["test_doc", 3]], "opposes": [["test_doc", 3]], "soutenant": [["test_doc", 3]], "nuirait": [["test_doc", 3]], "qualite": [["test_doc", 3]], "service": [["test_doc", 3]], "qui": [["test_doc", 3]], "perturbe": [["test_doc", 3]], "fortement": [["test_doc", 3]], "fonctionnement": [["test_doc", 3]], "hopitaux": [["test_doc", 3]], "conduit": [["test_doc", 3]], "porter": [["test_doc", 3]], "alerte": [["test_doc", 3]], "sante": [["test_doc", 3]], "publique": [["test_doc", 3]], "niveau": [["test_doc", 3]], "eleve": [["test_doc", 3]]}
+{
+  "la": [
+    ["2024-03-06_le_monde", 12],
+    ["2024-03-04_le_monde", 15]
+  ],
+  "veille": [["2024-03-06_le_monde", 1]],
+  "le": [
+    ["2024-03-06_le_monde", 19],
+    ["2024-03-04_le_monde", 12]
+  ],
+  "gouvernement": [
+    ["2024-03-06_le_monde", 7],
+    ["2024-03-04_le_monde", 7]
+  ],
+  "sud-coreen": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "avait": [["2024-03-06_le_monde", 2]],
+  "dit": [["2024-03-06_le_monde", 1]],
+  "avoir": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "identifie": [["2024-03-06_le_monde", 1]],
+  "medecins": [
+    ["2024-03-06_le_monde", 7],
+    ["2024-03-04_le_monde", 5]
+  ],
+  "en": [
+    ["2024-03-06_le_monde", 7],
+    ["2024-03-04_le_monde", 6]
+  ],
+  "greve": [
+    ["2024-03-06_le_monde", 4],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "susceptibles": [["2024-03-06_le_monde", 1]],
+  "detre": [["2024-03-06_le_monde", 1]],
+  "suspendus": [["2024-03-06_le_monde", 1]],
+  "mercredi": [["2024-03-06_le_monde", 3]],
+  "mars": [["2024-03-06_le_monde", 1]],
+  "police": [["2024-03-06_le_monde", 2]],
+  "sud-coreenne": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "convoque": [["2024-03-06_le_monde", 2]],
+  "un": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "premier": [["2024-03-06_le_monde", 2]],
+  "medecin": [["2024-03-06_le_monde", 1]],
+  "pour": [
+    ["2024-03-06_le_monde", 6],
+    ["2024-03-04_le_monde", 3]
+  ],
+  "interrogatoire": [["2024-03-06_le_monde", 2]],
+  "dans": [
+    ["2024-03-06_le_monde", 4],
+    ["2024-03-04_le_monde", 5]
+  ],
+  "cadre": [["2024-03-06_le_monde", 1]],
+  "dun": [["2024-03-06_le_monde", 2]],
+  "immense": [["2024-03-06_le_monde", 1]],
+  "mouvement": [
+    ["2024-03-06_le_monde", 4],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "de": [
+    ["2024-03-06_le_monde", 20],
+    ["2024-03-04_le_monde", 25]
+  ],
+  "des": [
+    ["2024-03-06_le_monde", 7],
+    ["2024-03-04_le_monde", 13]
+  ],
+  "milliers": [["2024-03-06_le_monde", 1]],
+  "jeunes": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "ont": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 3]
+  ],
+  "demissionne": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "et": [
+    ["2024-03-06_le_monde", 8],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "cesse": [["2024-03-06_le_monde", 1]],
+  "leur": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 5]
+  ],
+  "travail": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 3]
+  ],
+  "il": [["2024-03-06_le_monde", 3]],
+  "environ": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "deux": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "semaines": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "protester": [["2024-03-06_le_monde", 1]],
+  "contre": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "projet": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "gouvernemental": [["2024-03-06_le_monde", 1]],
+  "daugmenter": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "nombre": [["2024-03-06_le_monde", 1]],
+  "dadmissions": [["2024-03-06_le_monde", 1]],
+  "les": [
+    ["2024-03-06_le_monde", 12],
+    ["2024-03-04_le_monde", 18]
+  ],
+  "facultes": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "medecine": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 3]
+  ],
+  "une": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "mesure": [["2024-03-06_le_monde", 2]],
+  "jugee": [["2024-03-06_le_monde", 1]],
+  "essentielle": [["2024-03-06_le_monde", 1]],
+  "par": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 3]
+  ],
+  "face": [["2024-03-06_le_monde", 1]],
+  "au": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "vieillissement": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "population": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "du": [
+    ["2024-03-06_le_monde", 5],
+    ["2024-03-04_le_monde", 11]
+  ],
+  "pays": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "qualifie": [["2024-03-06_le_monde", 1]],
+  "dillegal": [["2024-03-06_le_monde", 1]],
+  "cet": [["2024-03-06_le_monde", 1]],
+  "arret": [["2024-03-06_le_monde", 1]],
+  "tres": [["2024-03-06_le_monde", 1]],
+  "suivi": [["2024-03-06_le_monde", 1]],
+  "fixe": [["2024-03-06_le_monde", 1]],
+  "fevrier": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "comme": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "date": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "limite": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "reprise": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "annonce": [["2024-03-06_le_monde", 1]],
+  "mardi": [["2024-03-06_le_monde", 1]],
+  "debut": [["2024-03-06_le_monde", 1]],
+  "suspension": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "licences": [["2024-03-06_le_monde", 2]],
+  "demande": [["2024-03-06_le_monde", 1]],
+  "louverture": [["2024-03-06_le_monde", 1]],
+  "dune": [["2024-03-06_le_monde", 3]],
+  "enquete": [["2024-03-06_le_monde", 1]],
+  "sur": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "personnes": [["2024-03-06_le_monde", 1]],
+  "liees": [["2024-03-06_le_monde", 1]],
+  "mobilisation": [["2024-03-06_le_monde", 1]],
+  "bureaux": [["2024-03-06_le_monde", 1]],
+  "lassociation": [["2024-03-06_le_monde", 1]],
+  "medicale": [["2024-03-06_le_monde", 2]],
+  "coreenne": [["2024-03-06_le_monde", 1]],
+  "kma": [["2024-03-06_le_monde", 2]],
+  "fer": [["2024-03-06_le_monde", 1]],
+  "lance": [["2024-03-06_le_monde", 1]],
+  "deja": [["2024-03-06_le_monde", 1]],
+  "ete": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "perquisitionnes": [["2024-03-06_le_monde", 1]],
+  "ses": [["2024-03-06_le_monde", 1]],
+  "principaux": [["2024-03-06_le_monde", 1]],
+  "membres": [["2024-03-06_le_monde", 1]],
+  "poursuivis": [["2024-03-06_le_monde", 1]],
+  "justice": [["2024-03-06_le_monde", 1]],
+  "infraction": [["2024-03-06_le_monde", 1]],
+  "reglementation": [["2024-03-06_le_monde", 1]],
+  "frappes": [["2024-03-06_le_monde", 1]],
+  "interdiction": [["2024-03-06_le_monde", 1]],
+  "voyager": [["2024-03-06_le_monde", 1]],
+  "accuse": [["2024-03-06_le_monde", 1]],
+  "davoir": [["2024-03-06_le_monde", 1]],
+  "aide": [["2024-03-06_le_monde", 1]],
+  "encourage": [["2024-03-06_le_monde", 1]],
+  "manifestations": [["2024-03-06_le_monde", 1]],
+  "joo": [["2024-03-06_le_monde", 1]],
+  "soo-ho": [["2024-03-06_le_monde", 1]],
+  "membre": [["2024-03-06_le_monde", 2]],
+  "je": [["2024-03-06_le_monde", 2]],
+  "suis": [["2024-03-06_le_monde", 1]],
+  "venu": [["2024-03-06_le_monde", 1]],
+  "ici": [["2024-03-06_le_monde", 1]],
+  "sans": [["2024-03-06_le_monde", 1]],
+  "probleme": [["2024-03-06_le_monde", 1]],
+  "parce": [["2024-03-06_le_monde", 1]],
+  "que": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "nai": [["2024-03-06_le_monde", 1]],
+  "litteralement": [["2024-03-06_le_monde", 1]],
+  "rien": [["2024-03-06_le_monde", 1]],
+  "cacher": [["2024-03-06_le_monde", 1]],
+  "ni": [["2024-03-06_le_monde", 1]],
+  "aucune": [["2024-03-06_le_monde", 1]],
+  "raison": [["2024-03-06_le_monde", 1]],
+  "faire": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "declare": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "chirurgien": [["2024-03-06_le_monde", 1]],
+  "ans": [["2024-03-06_le_monde", 1]],
+  "presse": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "avant": [["2024-03-06_le_monde", 1]],
+  "dentrer": [["2024-03-06_le_monde", 1]],
+  "locaux": [["2024-03-06_le_monde", 1]],
+  "metropolitaine": [["2024-03-06_le_monde", 1]],
+  "seoul": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "laccusation": [["2024-03-06_le_monde", 1]],
+  "dincitation": [["2024-03-06_le_monde", 1]],
+  "ne": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "peut": [["2024-03-06_le_monde", 1]],
+  "etre": [["2024-03-06_le_monde", 1]],
+  "etablie": [["2024-03-06_le_monde", 1]],
+  "car": [["2024-03-06_le_monde", 1]],
+  "nous": [["2024-03-06_le_monde", 1]],
+  "navons": [["2024-03-06_le_monde", 1]],
+  "jamais": [["2024-03-06_le_monde", 1]],
+  "incite": [["2024-03-06_le_monde", 1]],
+  "demissionner": [["2024-03-06_le_monde", 1]],
+  "masse": [["2024-03-06_le_monde", 1]],
+  "selon": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "lui": [["2024-03-06_le_monde", 1]],
+  "affirme": [["2024-03-06_le_monde", 2]],
+  "ce": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "est": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "non": [["2024-03-06_le_monde", 1]],
+  "violent": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "exhorte": [["2024-03-06_le_monde", 1]],
+  "renoncer": [["2024-03-06_le_monde", 1]],
+  "son": [
+    ["2024-03-06_le_monde", 3],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "entetement": [["2024-03-06_le_monde", 1]],
+  "negocier": [["2024-03-06_le_monde", 1]],
+  "linterrogatoire": [["2024-03-06_le_monde", 1]],
+  "personnel": [["2024-03-06_le_monde", 1]],
+  "medical": [["2024-03-06_le_monde", 1]],
+  "rapport": [["2024-03-06_le_monde", 1]],
+  "avec": [["2024-03-06_le_monde", 1]],
+  "debrayages": [["2024-03-06_le_monde", 1]],
+  "cours": [["2024-03-06_le_monde", 1]],
+  "malgre": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "menace": [["2024-03-06_le_monde", 1]],
+  "plupart": [["2024-03-06_le_monde", 1]],
+  "grevistes": [["2024-03-06_le_monde", 1]],
+  "nont": [["2024-03-06_le_monde", 1]],
+  "pas": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "repris": [["2024-03-06_le_monde", 1]],
+  "maniere": [["2024-03-06_le_monde", 1]],
+  "significative": [["2024-03-06_le_monde", 1]],
+  "donnees": [["2024-03-06_le_monde", 1]],
+  "lundi": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "pres": [["2024-03-06_le_monde", 1]],
+  "stagiaires": [["2024-03-06_le_monde", 1]],
+  "etaient": [["2024-03-06_le_monde", 1]],
+  "toujours": [["2024-03-06_le_monde", 1]],
+  "lun": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "ratios": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "medecins-patients": [["2024-03-06_le_monde", 1]],
+  "plus": [
+    ["2024-03-06_le_monde", 2],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "faibles": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "parmi": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "developpes": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "insiste": [["2024-03-06_le_monde", 1]],
+  "admettre": [["2024-03-06_le_monde", 1]],
+  "etudiants": [["2024-03-06_le_monde", 1]],
+  "supplementaires": [["2024-03-06_le_monde", 1]],
+  "ecoles": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "chaque": [["2024-03-06_le_monde", 1]],
+  "annee": [["2024-03-06_le_monde", 1]],
+  "partir": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "lan": [["2024-03-06_le_monde", 1]],
+  "prochain": [["2024-03-06_le_monde", 1]],
+  "sont": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "opposes": [["2024-03-06_le_monde", 1]],
+  "soutenant": [["2024-03-06_le_monde", 1]],
+  "nuirait": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "qualite": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 2]
+  ],
+  "service": [["2024-03-06_le_monde", 1]],
+  "qui": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "perturbe": [["2024-03-06_le_monde", 1]],
+  "fortement": [["2024-03-06_le_monde", 1]],
+  "fonctionnement": [["2024-03-06_le_monde", 1]],
+  "hopitaux": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "conduit": [["2024-03-06_le_monde", 1]],
+  "porter": [["2024-03-06_le_monde", 1]],
+  "alerte": [["2024-03-06_le_monde", 1]],
+  "sante": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 4]
+  ],
+  "publique": [["2024-03-06_le_monde", 1]],
+  "niveau": [
+    ["2024-03-06_le_monde", 1],
+    ["2024-03-04_le_monde", 1]
+  ],
+  "eleve": [["2024-03-06_le_monde", 1]],
+  "contexte": [["2024-03-04_le_monde", 1]],
+  "greves": [["2024-03-04_le_monde", 1]],
+  "massives": [["2024-03-04_le_monde", 2]],
+  "reaction": [["2024-03-04_le_monde", 1]],
+  "reforme": [["2024-03-04_le_monde", 3]],
+  "etudes": [["2024-03-04_le_monde", 1]],
+  "domaine": [["2024-03-04_le_monde", 1]],
+  "fait": [["2024-03-04_le_monde", 2]],
+  "savoir": [["2024-03-04_le_monde", 1]],
+  "4mars": [["2024-03-04_le_monde", 1]],
+  "quil": [["2024-03-04_le_monde", 1]],
+  "suspendrait": [["2024-03-04_le_monde", 1]],
+  "autorisations": [["2024-03-04_le_monde", 1]],
+  "dexercer": [["2024-03-04_le_monde", 1]],
+  "demissionnaires": [["2024-03-04_le_monde", 2]],
+  "sils": [["2024-03-04_le_monde", 2]],
+  "reviennent": [["2024-03-04_le_monde", 1]],
+  "travailler": [["2024-03-04_le_monde", 2]],
+  "10000internes": [["2024-03-04_le_monde", 1]],
+  "soit": [["2024-03-04_le_monde", 1]],
+  "main-duvre": [["2024-03-04_le_monde", 1]],
+  "formation": [["2024-03-04_le_monde", 1]],
+  "depuis": [["2024-03-04_le_monde", 3]],
+  "ils": [["2024-03-04_le_monde", 2]],
+  "protestent": [["2024-03-04_le_monde", 1]],
+  "admissions": [["2024-03-04_le_monde", 2]],
+  "lannee": [["2024-03-04_le_monde", 1]],
+  "prochaine": [["2024-03-04_le_monde", 1]],
+  "lutter": [["2024-03-04_le_monde", 1]],
+  "penuries": [["2024-03-04_le_monde", 1]],
+  "daujourdhui": [["2024-03-04_le_monde", 1]],
+  "applique": [["2024-03-04_le_monde", 1]],
+  "mesures": [["2024-03-04_le_monde", 1]],
+  "legales": [["2024-03-04_le_monde", 1]],
+  "deuxieme": [["2024-03-04_le_monde", 1]],
+  "vice-ministre": [["2024-03-04_le_monde", 1]],
+  "park": [["2024-03-04_le_monde", 2]],
+  "min-soo": [["2024-03-04_le_monde", 1]],
+  "conference": [["2024-03-04_le_monde", 1]],
+  "professionnels": [["2024-03-04_le_monde", 1]],
+  "poursuivi": [["2024-03-04_le_monde", 1]],
+  "29fevrier": [["2024-03-04_le_monde", 1]],
+  "fixee": [["2024-03-04_le_monde", 1]],
+  "titre": [["2024-03-04_le_monde", 1]],
+  "passibles": [["2024-03-04_le_monde", 1]],
+  "poursuites": [["2024-03-04_le_monde", 1]],
+  "judiciaires": [["2024-03-04_le_monde", 1]],
+  "lordre": [["2024-03-04_le_monde", 1]],
+  "trois": [["2024-03-04_le_monde", 1]],
+  "mois": [["2024-03-04_le_monde", 1]],
+  "inevitable": [["2024-03-04_le_monde", 1]],
+  "precise": [["2024-03-04_le_monde", 2]],
+  "ajoutant": [["2024-03-04_le_monde", 1]],
+  "inspections": [["2024-03-04_le_monde", 1]],
+  "seraient": [["2024-03-04_le_monde", 1]],
+  "effectuees": [["2024-03-04_le_monde", 1]],
+  "constater": [["2024-03-04_le_monde", 1]],
+  "revenu": [["2024-03-04_le_monde", 1]],
+  "si": [["2024-03-04_le_monde", 1]],
+  "labsence": [["2024-03-04_le_monde", 1]],
+  "confirmee": [["2024-03-04_le_monde", 1]],
+  "place": [["2024-03-04_le_monde", 1]],
+  "seront": [["2024-03-04_le_monde", 1]],
+  "notifies": [["2024-03-04_le_monde", 1]],
+  "procedures": [["2024-03-04_le_monde", 1]],
+  "licence": [["2024-03-04_le_monde", 1]],
+  "professionnelle": [["2024-03-04_le_monde", 1]],
+  "coree": [["2024-03-04_le_monde", 2]],
+  "sud": [["2024-03-04_le_monde", 2]],
+  "porte": [["2024-03-04_le_monde", 1]],
+  "etat": [["2024-03-04_le_monde", 1]],
+  "dalerte": [["2024-03-04_le_monde", 1]],
+  "sanitaire": [["2024-03-04_le_monde", 1]],
+  "haut": [["2024-03-04_le_monde", 1]],
+  "apres": [["2024-03-04_le_monde", 1]],
+  "vague": [["2024-03-04_le_monde", 1]],
+  "demissions": [["2024-03-04_le_monde", 1]],
+  "internes": [["2024-03-04_le_monde", 2]],
+  "consideres": [["2024-03-04_le_monde", 1]],
+  "travailleurs": [["2024-03-04_le_monde", 1]],
+  "essentiels": [["2024-03-04_le_monde", 1]],
+  "loi": [["2024-03-04_le_monde", 1]],
+  "interdit": [["2024-03-04_le_monde", 1]],
+  "ministere": [["2024-03-04_le_monde", 2]],
+  "moitie": [["2024-03-04_le_monde", 1]],
+  "operations": [["2024-03-04_le_monde", 1]],
+  "chirurgicales": [["2024-03-04_le_monde", 1]],
+  "prevues": [["2024-03-04_le_monde", 1]],
+  "certains": [["2024-03-04_le_monde", 1]],
+  "grands": [["2024-03-04_le_monde", 1]],
+  "annulees": [["2024-03-04_le_monde", 1]],
+  "fin": [["2024-03-04_le_monde", 1]],
+  "appels": [["2024-03-04_le_monde", 1]],
+  "repetes": [["2024-03-04_le_monde", 1]],
+  "retours": [["2024-03-04_le_monde", 1]],
+  "restes": [["2024-03-04_le_monde", 1]],
+  "minimes": [["2024-03-04_le_monde", 1]],
+  "numero": [["2024-03-04_le_monde", 1]],
+  "reste": [["2024-03-04_le_monde", 1]],
+  "ferme": [["2024-03-04_le_monde", 1]],
+  "affirmant": [["2024-03-04_le_monde", 1]],
+  "medecinspatients": [["2024-03-04_le_monde", 1]],
+  "soutiennent": [["2024-03-04_le_monde", 1]],
+  "cette": [["2024-03-04_le_monde", 1]],
+  "soins": [["2024-03-04_le_monde", 2]],
+  "partisans": [["2024-03-04_le_monde", 1]],
+  "estiment": [["2024-03-04_le_monde", 1]],
+  "surtout": [["2024-03-04_le_monde", 1]],
+  "preoccupes": [["2024-03-04_le_monde", 1]],
+  "reformes": [["2024-03-04_le_monde", 1]],
+  "pourraient": [["2024-03-04_le_monde", 1]],
+  "degrader": [["2024-03-04_le_monde", 1]],
+  "salaire": [["2024-03-04_le_monde", 1]],
+  "statut": [["2024-03-04_le_monde", 1]],
+  "social": [["2024-03-04_le_monde", 1]],
+  "sondages": [["2024-03-04_le_monde", 1]],
+  "jusqua": [["2024-03-04_le_monde", 1]],
+  "soutient": [["2024-03-04_le_monde", 1]],
+  "laugmentation": [["2024-03-04_le_monde", 1]],
+  "residents": [["2024-03-04_le_monde", 1]],
+  "regions": [["2024-03-04_le_monde", 1]],
+  "eloignees": [["2024-03-04_le_monde", 1]],
+  "ayant": [["2024-03-04_le_monde", 1]],
+  "mal": [["2024-03-04_le_monde", 1]],
+  "acceder": [["2024-03-04_le_monde", 1]]
+}

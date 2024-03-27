@@ -17,6 +17,12 @@ class Node:
         self.left = None
         self.right = None
 
+dict_json_path = "./dict.json"
+
+# Writing an empty dictionary to dict.json
+with open(dict_json_path, "w") as file:
+    json.dump({}, file)
+
 # Document collection and reading
 def readfile(path, filename):
     '''
@@ -179,6 +185,47 @@ def vector_space_query(query, tfidf_matrix, feature_names):
     cosine_similarities = calculate_cosine_similarity(tfidf_matrix, query_vector)
     return np.argsort(cosine_similarities.flatten())[::-1]  # Sort documents by similarity
 
+# Function to save sorted document names as relevant for the query
+def save_relevant_docs(query, sorted_doc_names):
+    relevance_data_path = 'relevant_docs_per_query.json'
+    try:
+        with open(relevance_data_path, 'r') as file:
+            relevance_data = json.load(file)
+    except FileNotFoundError:
+        relevance_data = {}
+
+    relevance_data[query] = sorted_doc_names
+
+    with open(relevance_data_path, 'w') as file:
+        json.dump(relevance_data, file, indent=4)
+
+# Load relevant docs
+def load_relevant_docs():
+    try:
+        with open('relevant_docs_per_query.json', 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {}
+
+# Precision and recall calculation, recall
+def calculate_precision_recall(retrieved_docs, relevant_docs):
+    """
+    Calculate precision and recall.
+
+    Parameters:
+    - retrieved_docs (set): Set of retrieved document IDs.
+    - relevant_docs (set): Set of relevant document IDs (ground truth).
+
+    Returns:
+    - precision (float)
+    - recall (float)
+    """
+    retrieved_docs_set = set(retrieved_docs)
+    relevant_docs_set = set(relevant_docs)
+    true_positives = len(retrieved_docs_set.intersection(relevant_docs_set))
+    precision = true_positives / len(retrieved_docs_set) if retrieved_docs_set else 0
+    recall = true_positives / len(relevant_docs_set) if relevant_docs_set else 0
+    return precision, recall
 
 # Example Usage:
 if __name__ == "__main__":
@@ -188,9 +235,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    import os
-
 # Assuming the rest of your script is as previously discussed...
+    relevant_docs_data = load_relevant_docs()
 
     if args.vector:
         query = args.vector
@@ -230,7 +276,15 @@ if __name__ == "__main__":
         # Map the sorted document indices back to their names using the document_names list
         sorted_doc_names = [document_names[index] for index in sorted_doc_indices]
 
+        save_relevant_docs(query, sorted_doc_names)
+
         print("Documents sorted by relevance:", sorted_doc_names)
+
+        # Assuming you want to calculate precision and recall for vector queries
+        # Here you would need relevant documents for the given query
+        relevant_docs = relevant_docs_data.get(query, [])
+        precision, recall = calculate_precision_recall(sorted_doc_names, relevant_docs)
+        print(f"Precision: {precision}, Recall: {recall}")
 
     elif args.boolean:
         query = args.boolean

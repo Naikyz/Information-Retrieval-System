@@ -1,0 +1,14 @@
+{
+    "gouvernement sud-coreen hello": [
+        "2024-03-04_le_monde.txt",
+        "2024-03-06_le_monde.txt"
+    ],
+    "gouvernement NOT sud-coreen": [
+        "2024-03-04_le_monde.txt",
+        "2024-03-06_le_monde.txt"
+    ],
+    "gouvernement sud": [
+        "2024-03-04_le_monde.txt",
+        "2024-03-06_le_monde.txt"
+    ]
+}
