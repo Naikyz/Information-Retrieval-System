@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import unicodedata
 
 data_path = "."
 
@@ -35,30 +36,33 @@ def readfile(path, filename):
 # Pre-processing of text and generation of normalized tokens
 def preprocess(text):
     '''
-    Convert text file into list of normalized tokens, keeping contractions like "let's" intact.
+    Convert text file into list of normalized tokens, handling accents and keeping contractions like "let's" intact.
     Parameters:
         text (str) : text to be preprocessed
     Returns:
         normalized (list) : list of normalized tokens
     '''
     normalized = []
+    # Normalize unicode characters to decompose accents from letters
+    text = unicodedata.normalize('NFD', text)
+    text = text.encode('ascii', 'ignore').decode('utf-8')
+
     # Remove specific characters but keep apostrophes for contractions
     text = text.replace('"', '').replace(".", "")
     text = text.lower()
     # Remove numbers
     text = re.sub(r'\b[0-9]+\b', '', text)
 
-    # Use a simpler split based on spaces to avoid breaking contractions
-    # This is a naive approach and might need refinement for complex texts
     tokens = text.split()
 
+    # Assuming English stopwords, for French or other languages use appropriate stopwords list
     stop_words = set(stopwords.words('english'))
 
     # Filter out stop words and remove punctuation except apostrophes in contractions
     for word in tokens:
         if word not in stop_words:
             # Remove all punctuation except apostrophes
-            word = re.sub(r'[^\w\s\']', '', word)
+            word = re.sub(r'[^\w\s\'-]', '', word)
             if word:  # Check if word is not empty
                 normalized.append(word)
     return normalized

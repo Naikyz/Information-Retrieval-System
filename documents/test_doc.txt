@@ -1,1 +1,15 @@
-Hello world! This is a test document. Let's see how well it gets tokenized and normalized. 123 numbers should be removed.
+La veille, le gouvernement sud-coréen avait dit avoir identifié 8 000 médecins en grève, susceptibles d’être suspendus. Mercredi 6 mars, la police sud-coréenne a convoqué un premier médecin pour interrogatoire.
+
+Dans le cadre d’un immense mouvement de grève, des milliers de jeunes médecins ont démissionné et cessé leur travail il y a environ deux semaines pour protester contre le projet gouvernemental d’augmenter le nombre d’admissions dans les facultés de médecine, une mesure jugée essentielle par le gouvernement face au vieillissement de la population du pays.
+
+Le gouvernement a qualifié d’illégal cet arrêt de travail très suivi et avait fixé le 29 février comme date limite pour une reprise. Il a annoncé mardi le début de la suspension des licences des médecins en grève et demandé l’ouverture d’une enquête sur les personnes liées à la mobilisation.
+
+Les bureaux de l’Association médicale coréenne (KMA), fer de lance du mouvement, ont déjà été perquisitionnés. Ses principaux membres ont été poursuivis en justice pour infraction à la réglementation médicale et frappés d’une interdiction de voyager. Accusé d’avoir « aidé et encouragé » les manifestations, Joo Soo-ho, membre de la KMA, a été convoqué mercredi pour interrogatoire.
+
+« Je suis venu ici sans problème parce que je n’ai littéralement rien à cacher, ni aucune raison de le faire », a déclaré le chirurgien de 65 ans à la presse avant d’entrer dans les locaux de la police métropolitaine de Séoul. « L’accusation d’incitation ne peut être établie car nous n’avons jamais incité les jeunes médecins à démissionner en masse », selon lui. Il a affirmé que ce mouvement est « non violent » et a exhorté le gouvernement à renoncer à son « entêtement » et à négocier.
+
+L’interrogatoire de mercredi est le premier d’un membre du personnel médical en rapport avec les débrayages en cours. Malgré la menace d’une suspension des licences, la plupart des jeunes médecins grévistes n’ont pas repris le travail de manière significative, selon les données du gouvernement. Lundi, près de 9 000 médecins stagiaires étaient toujours en grève.
+
+Séoul affirme avoir l’un des ratios médecins-patients les plus faibles parmi les pays développés, et le gouvernement insiste pour admettre 2 000 étudiants supplémentaires dans les écoles de médecine chaque année, à partir de l’an prochain. Les médecins y sont opposés, soutenant que le mesure nuirait à la qualité du service.
+
+Le mouvement, qui perturbe fortement le fonctionnement des hôpitaux, a conduit le gouvernement à porter son alerte de santé publique à son niveau le plus élevé.
