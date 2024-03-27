@@ -5,6 +5,7 @@ from nltk.stem import PorterStemmer
 import json
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
+from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import unicodedata
@@ -227,6 +228,44 @@ def calculate_precision_recall(retrieved_docs, relevant_docs):
     recall = true_positives / len(relevant_docs_set) if relevant_docs_set else 0
     return precision, recall
 
+# Temporal relevance implementation
+def extract_info_from_filename(filename):
+    """
+    Extracts the publication date and source media from a filename.
+
+    Args:
+    - filename (str): Filename in the format 'YYYY-MM-DD_SOURCE_MEDIA.txt'.
+
+    Returns:
+    - tuple: (datetime, str) containing the publication date and source media name.
+    """
+    parts = filename.split('_')
+    date_str = parts[0]
+    source_media = '_'.join(parts[1:]).replace('.txt', '').replace('_', ' ')
+    publication_date = datetime.strptime(date_str, '%Y-%m-%d')
+    return publication_date, source_media
+
+def calculate_temporal_weight(document_date, current_date=datetime.now(), half_life_days=1):
+    """
+    Calculates a temporal weight for a document, halving it for each day past the publication date.
+
+    Args:
+    - document_date (datetime): The publication date of the document.
+    - current_date (datetime): The current date for reference.
+    - half_life_days (int): The number of days after which the weight is halved. Default is 1, meaning
+      the weight is halved for every day past the publication.
+
+    Returns:
+    - float: A temporal weight between 0 and 1, where 1 is for the most recent document and decreases
+      by half for each day the document is older.
+    """
+    age_days = max((current_date - document_date).days, 0)
+    # Calculate the reduction factor as 2 raised to the power of the number of half-lives (age_days / half_life_days)
+    reduction_factor = 2 ** (age_days / half_life_days)
+    # Initial weight is 1 (for current day documents), and it is divided by the reduction factor for older documents
+    weight = 1 / reduction_factor
+    return weight
+
 # Example Usage:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Information Retrieval System')
@@ -241,9 +280,10 @@ if __name__ == "__main__":
     if args.vector:
         query = args.vector
 
-        # Initialize lists to hold the preprocessed documents and their names
+        # Initialize lists to hold the preprocessed documents, their names, and publication dates
         documents = []
         document_names = []  # List to store the names of the documents
+        document_dates = []  # List to store the publication dates of the documents
 
         # Ensure the documents_path points to your directory containing the documents
         documents_path = "./documents/"
@@ -251,11 +291,15 @@ if __name__ == "__main__":
         # List all document files in the directory
         document_files = os.listdir(documents_path)
 
-        # Read and preprocess each document
+        # Read, preprocess each document, and extract publication dates
         for doc_file in document_files:
             full_path = os.path.join(documents_path, doc_file)
             if not os.path.isfile(full_path):
                 continue  # Skip if not a file
+
+            # Extract the publication date from the filename
+            publication_date, _ = extract_info_from_filename(doc_file)
+            document_dates.append(publication_date)
 
             # Load the document content
             text_content = readfile(documents_path, doc_file)
@@ -270,18 +314,29 @@ if __name__ == "__main__":
         # Compute TF-IDF matrix for the loaded documents
         tfidf_matrix, feature_names = compute_tfidf(documents)
 
-        # Perform the vector space query
-        sorted_doc_indices = vector_space_query(query, tfidf_matrix, feature_names)
+        # Convert the query into a TF-IDF vector
+        query_vector = TfidfVectorizer(vocabulary=feature_names).fit_transform([query])
 
-        # Map the sorted document indices back to their names using the document_names list
+        # Calculate cosine similarities between documents and the query vector
+        cosine_similarities = calculate_cosine_similarity(tfidf_matrix, query_vector).flatten()
+
+        # Calculate temporal weights for each document
+        current_date = datetime.now()
+        temporal_weights = np.array([calculate_temporal_weight(date, current_date) for date in document_dates])
+
+        # Adjust cosine similarities with temporal weights
+        adjusted_scores = cosine_similarities * temporal_weights
+
+        # Sort documents by adjusted scores
+        sorted_doc_indices = np.argsort(adjusted_scores)[::-1]
         sorted_doc_names = [document_names[index] for index in sorted_doc_indices]
 
+        # Optionally, save sorted document names as relevant for the query
         save_relevant_docs(query, sorted_doc_names)
 
-        print("Documents sorted by relevance:", sorted_doc_names)
+        print("Documents sorted by relevance (with temporal adjustment):", sorted_doc_names)
 
-        # Assuming you want to calculate precision and recall for vector queries
-        # Here you would need relevant documents for the given query
+        # Calculate precision and recall for vector queries, assuming relevant_docs_data is defined
         relevant_docs = relevant_docs_data.get(query, [])
         precision, recall = calculate_precision_recall(sorted_doc_names, relevant_docs)
         print(f"Precision: {precision}, Recall: {recall}")
